@@ -1,0 +1,12 @@
+{
+  "name": "react-native-todos",
+  "displayName": "react-native-todos",
+  "expo": {
+    "name": "react-native-todos",
+    "slug": "react-native-todos",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
