@@ -43,7 +43,6 @@ const SplashPage = () => {
 
 	return (
 		<View>
-			<Text>Hello, I am your SplashPage! Input your details to login.</Text>
 			<TextInput
 				style={{height: 40, display: 'flex'}}
 				placeholder="Enter user id"
