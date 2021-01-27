@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, TextInput, Button } from 'react-native';
+import { Text, TextInput, Button, View } from 'react-native';
 import Validator from '../utils/validator';
 
 const SplashPage = () => {
@@ -42,7 +42,7 @@ const SplashPage = () => {
 	}
 
 	return (
-		<div>
+		<View>
 			<Text>Hello, I am your SplashPage! Input your details to login.</Text>
 			<TextInput
 				style={{height: 40, display: 'flex'}}
@@ -62,7 +62,7 @@ const SplashPage = () => {
 				color="#841584"
 				accessibilityLabel="Submit"
 			/>
-		</div>
+		</View>
 	);
 }
 
