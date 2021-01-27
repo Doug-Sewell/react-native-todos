@@ -1,9 +1,9 @@
 {
-  "name": "intro",
-  "displayName": "intro",
+  "name": "react-native-todos",
+  "displayName": "react-native-todos",
   "expo": {
-    "name": "intro",
-    "slug": "intro",
+    "name": "react-native-todos",
+    "slug": "react-native-todos",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
