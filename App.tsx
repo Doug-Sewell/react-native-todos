@@ -1,10 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import MainPage from './main/core/MainPage';
 
 export default function App() {
+  const aprops: string = 'a prop'
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
+      <MainPage 
+      aprops = { aprops }
+      />
     </View>
   );
 }
