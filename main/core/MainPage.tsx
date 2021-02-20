@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, StyleSheet, View } from 'react-native';
 import SplashPage from '../SplashPage/SplashPage';
 
 type MainProps = {
@@ -9,11 +9,19 @@ type MainProps = {
 const MainPage = ({ aprops }: MainProps) => {
 
   return (
-    <>
-        <Text>Hello, I am your MainPage! { aprops } </Text>
+    <View style={ styles.mainView }>
+        <Text>Enter your login credentials below: { aprops } </Text>
         <SplashPage />
-    </>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  mainView: {
+      flex:1,
+      alignItems: 'center',
+      justifyContent: 'center'
+  }
+});
 
 export default MainPage;
